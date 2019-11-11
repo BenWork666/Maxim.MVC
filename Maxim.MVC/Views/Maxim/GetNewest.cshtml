@@ -1,0 +1,25 @@
+﻿@model Maxim.Model.Car
+@{
+    ViewBag.Title = "GetNewest";
+}
+<h2>Get Newest Car</h2>
+
+<table class="table">
+    <tr>
+        <td>Make</td>
+        <td>Color</td>
+        <td>Model</td>
+        <td>Price</td>
+        <td>TCCRating</td>
+        <td>HwyMPG</td>
+    </tr>
+    <tr>
+        <td>@Model.Make</td>
+        <td>@Model.Color</td>
+        <td>@Model.Model</td>
+        <td>@Model.Price</td>
+        <td>@Model.TCCRating</td>
+        <td>@Model.HwyMPG</td>
+    </tr>
+
+</table>
